@@ -19,5 +19,7 @@ function precmd() {
   fi
 }
 
+# Start the powerline daemon and source the powerline file.
+powerline-daemon -q
 
-source /usr/local/lib/python2.7/sitepackages/powerline/bindings/zsh/powerline.zsh
+source /usr/local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.zsh
