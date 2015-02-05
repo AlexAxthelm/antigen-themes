@@ -20,4 +20,4 @@ function precmd() {
 }
 
 
-. /usr/local/lib/python2.7/sitepackages/powerline/bindings/zsh/powerline.zsh
+source /usr/local/lib/python2.7/sitepackages/powerline/bindings/zsh/powerline.zsh
