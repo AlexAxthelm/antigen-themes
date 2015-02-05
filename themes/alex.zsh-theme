@@ -21,5 +21,3 @@ function precmd() {
 
 
 . /usr/local/lib/python2.7/sitepackages/powerline/bindings/zsh/powerline.zsh
-
-RPROMPT=$(git_super_status)
