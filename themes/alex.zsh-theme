@@ -20,8 +20,6 @@ function precmd() {
 }
 
 
-PROMPT='$HISTORY_EVENT_NUMBER ${TIMER_TIME} %n@%m 
-$(get_pwd)
-$reset_color$'
+. /usr/local/lib/python2.7/sitepackages/powerline/bindings/zsh/powerline.zsh
 
 RPROMPT=$(git_super_status)
